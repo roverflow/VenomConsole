@@ -1,0 +1,9 @@
+[1] android/meterpreter/reverse_http                    Run a meterpreter server in Android. Tunnel communication over HTTP
+[2] android/meterpreter/reverse_https                   Run a meterpreter server in Android. Tunnel communication over HTTPS
+[3] android/meterpreter/reverse_tcp                     Run a meterpreter server in Android. Connect back stager
+[4] android/meterpreter_reverse_http                    Connect back to attacker and spawn a Meterpreter shell
+[5] android/meterpreter_reverse_https                   Connect back to attacker and spawn a Meterpreter shell
+[6] android/meterpreter_reverse_tcp                     Connect back to the attacker and spawn a Meterpreter shell
+[7] android/shell/reverse_http                          Spawn a piped command shell (sh). Tunnel communication over HTTP
+[8] android/shell/reverse_https                         Spawn a piped command shell (sh). Tunnel communication over HTTPS
+[9] android/shell/reverse_tcp                           Spawn a piped command shell (sh). Connect back stager

@@ -1,0 +1,52 @@
+[1]  windows/x64/encrypted_shell/reverse_tcp             Spawn a piped command shell (staged). Connect to MSF and read in stage
+[2]  windows/x64/encrypted_shell_reverse_tcp             Connect back to attacker and spawn an encrypted command shell
+[3]  windows/x64/exec                                    Execute an arbitrary command (Windows x64)
+[4]  windows/x64/loadlibrary                             Load an arbitrary x64 library path
+[5]  windows/x64/messagebox                              Spawn a dialog via MessageBox using a customizable title, text & icon
+[6]  windows/x64/meterpreter/bind_ipv6_tcp               Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Listen for an IPv6 connection (Windows x64)
+[7]  windows/x64/meterpreter/bind_ipv6_tcp_uuid          Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Listen for an IPv6 connection with UUID Support (Windows x64)
+[8]  windows/x64/meterpreter/bind_named_pipe             Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Listen for a pipe connection (Windows x64)
+[9]  windows/x64/meterpreter/bind_tcp                    Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Listen for a connection (Windows x64)
+[10] windows/x64/meterpreter/bind_tcp_rc4                Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Connect back to the attacker
+[11] windows/x64/meterpreter/bind_tcp_uuid               Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Listen for a connection with UUID Support (Windows x64)
+[12] windows/x64/meterpreter/reverse_http                Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Tunnel communication over HTTP (Windows x64 wininet)
+[13] windows/x64/meterpreter/reverse_https               Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Tunnel communication over HTTP (Windows x64 wininet)
+[14] windows/x64/meterpreter/reverse_named_pipe          Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Connect back to the attacker via a named pipe pivot
+[15] windows/x64/meterpreter/reverse_tcp                 Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Connect back to the attacker (Windows x64)
+[16] windows/x64/meterpreter/reverse_tcp_rc4             Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Connect back to the attacker
+[17] windows/x64/meterpreter/reverse_tcp_uuid            Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Connect back to the attacker with UUID Support (Windows x64)
+[18] windows/x64/meterpreter/reverse_winhttp             Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Tunnel communication over HTTP (Windows x64 winhttp)
+[19] windows/x64/meterpreter/reverse_winhttps            Inject the meterpreter server DLL via the Reflective Dll Injection payload (staged x64). Tunnel communication over HTTPS (Windows x64 winhttp)
+[20] windows/x64/meterpreter_bind_named_pipe             Connect to victim and spawn a Meterpreter shell
+[21] windows/x64/meterpreter_bind_tcp                    Connect to victim and spawn a Meterpreter shell
+[22] windows/x64/meterpreter_reverse_http                Connect back to attacker and spawn a Meterpreter shell
+[23] windows/x64/meterpreter_reverse_https               Connect back to attacker and spawn a Meterpreter shell
+[24] windows/x64/meterpreter_reverse_ipv6_tcp            Connect back to attacker and spawn a Meterpreter shell
+[25] windows/x64/meterpreter_reverse_tcp                 Connect back to attacker and spawn a Meterpreter shell
+[26] windows/x64/pingback_reverse_tcp                    Connect back to attacker and report UUID (Windows x64)
+[27] windows/x64/powershell_bind_tcp                     Listen for a connection and spawn an interactive powershell session
+[28] windows/x64/powershell_reverse_tcp                  Listen for a connection and spawn an interactive powershell session
+[29] windows/x64/shell/bind_ipv6_tcp                     Spawn a piped command shell (Windows x64) (staged). Listen for an IPv6 connection (Windows x64)
+[30] windows/x64/shell/bind_ipv6_tcp_uuid                Spawn a piped command shell (Windows x64) (staged). Listen for an IPv6 connection with UUID Support (Windows x64)
+[31] windows/x64/shell/bind_named_pipe                   Spawn a piped command shell (Windows x64) (staged). Listen for a pipe connection (Windows x64)
+[32] windows/x64/shell/bind_tcp                          Spawn a piped command shell (Windows x64) (staged). Listen for a connection (Windows x64)
+[33] windows/x64/shell/bind_tcp_rc4                      Spawn a piped command shell (Windows x64) (staged). Connect back to the attacker
+[34] windows/x64/shell/bind_tcp_uuid                     Spawn a piped command shell (Windows x64) (staged). Listen for a connection with UUID Support (Windows x64)
+[35] windows/x64/shell/reverse_tcp                       Spawn a piped command shell (Windows x64) (staged). Connect back to the attacker (Windows x64)
+[36] windows/x64/shell/reverse_tcp_rc4                   Spawn a piped command shell (Windows x64) (staged). Connect back to the attacker
+[37] windows/x64/shell/reverse_tcp_uuid                  Spawn a piped command shell (Windows x64) (staged). Connect back to the attacker with UUID Support (Windows x64)
+[38] windows/x64/shell_bind_tcp                          Listen for a connection and spawn a command shell (Windows x64)
+[39] windows/x64/shell_reverse_tcp                       Connect back to attacker and spawn a command shell (Windows x64)
+[40] windows/x64/vncinject/bind_ipv6_tcp                 Inject a VNC Dll via a reflective loader (Windows x64) (staged). Listen for an IPv6 connection (Windows x64)
+[41] windows/x64/vncinject/bind_ipv6_tcp_uuid            Inject a VNC Dll via a reflective loader (Windows x64) (staged). Listen for an IPv6 connection with UUID Support (Windows x64)
+[42] windows/x64/vncinject/bind_named_pipe               Inject a VNC Dll via a reflective loader (Windows x64) (staged). Listen for a pipe connection (Windows x64)
+[43] windows/x64/vncinject/bind_tcp                      Inject a VNC Dll via a reflective loader (Windows x64) (staged). Listen for a connection (Windows x64)
+[44] windows/x64/vncinject/bind_tcp_rc4                  Inject a VNC Dll via a reflective loader (Windows x64) (staged). Connect back to the attacker
+[45] windows/x64/vncinject/bind_tcp_uuid                 Inject a VNC Dll via a reflective loader (Windows x64) (staged). Listen for a connection with UUID Support (Windows x64)
+[46] windows/x64/vncinject/reverse_http                  Inject a VNC Dll via a reflective loader (Windows x64) (staged). Tunnel communication over HTTP (Windows x64 wininet)
+[47] windows/x64/vncinject/reverse_https                 Inject a VNC Dll via a reflective loader (Windows x64) (staged). Tunnel communication over HTTP (Windows x64 wininet)
+[48] windows/x64/vncinject/reverse_tcp                   Inject a VNC Dll via a reflective loader (Windows x64) (staged). Connect back to the attacker (Windows x64)
+[49] windows/x64/vncinject/reverse_tcp_rc4               Inject a VNC Dll via a reflective loader (Windows x64) (staged). Connect back to the attacker
+[50] windows/x64/vncinject/reverse_tcp_uuid              Inject a VNC Dll via a reflective loader (Windows x64) (staged). Connect back to the attacker with UUID Support (Windows x64)
+[51] windows/x64/vncinject/reverse_winhttp               Inject a VNC Dll via a reflective loader (Windows x64) (staged). Tunnel communication over HTTP (Windows x64 winhttp)
+[52] windows/x64/vncinject/reverse_winhttps              Inject a VNC Dll via a reflective loader (Windows x64) (staged). Tunnel communication over HTTPS (Windows x64 winhttp)

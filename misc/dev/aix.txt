@@ -1,0 +1,4 @@
+[1] aix/ppc/shell_bind_tcp                              Listen for a connection and spawn a command shell
+[2] aix/ppc/shell_find_port                             Spawn a shell on an established connection
+[3] aix/ppc/shell_interact                              Simply execve /bin/sh (for inetd programs)
+[4] aix/ppc/shell_reverse_tcp                           Connect back to attacker and spawn a command shell
