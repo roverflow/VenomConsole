@@ -8,3 +8,10 @@ You Can choose between Multiple options for the paylaod , it has options b/w x64
 
 Metasploit must be pre installed for this script to work 
 Python3 Should be installed
+
+## Usage
+
+```
+chmod +x start.sh
+./start.sh
+```
